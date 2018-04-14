@@ -5,14 +5,17 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class FourSquare {
 	
-	// 2. Create a new Robot
+	Robot phil = new Robot();
 
 	void go() {
-		// 4. Make the robot move as fast as possible
+		phil.setSpeed(80);
 
-		// 5. Set the pen width to 5
-
-		// 6. Use a for loop to repeat steps #7 to #8, four times...
+		phil.setPenWidth(10);
+		
+		for (int i = 0; i<3; i++) {
+		phil.setPenColor(null);
+			
+		}
 
 			// 7. Set the pen color to random
 	
