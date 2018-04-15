@@ -3,8 +3,12 @@ package section3;
 import javax.swing.JOptionPane;
 
 public class WorldDomination {
-	
+
 	public static void main(String[] args) {
+		String worldDom = JOptionPane.showInputDialog(null, "Do you know how to code?");
+		if (worldDom.equals("yes")) {
+			JOptionPane.showMessageDialog(null);
+		}
 		// 1. Ask the user if they know how to write code.
 
 		// 2. If they say "yes", tell them they will rule the world.
@@ -13,4 +17,3 @@ public class WorldDomination {
 
 	}
 }
-
