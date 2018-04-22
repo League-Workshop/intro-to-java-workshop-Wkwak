@@ -7,7 +7,10 @@ public class WorldDomination {
 	public static void main(String[] args) {
 		String worldDom = JOptionPane.showInputDialog(null, "Do you know how to code?");
 		if (worldDom.equals("yes")) {
-			JOptionPane.showMessageDialog(null);
+			JOptionPane.showMessageDialog(null, "great");
+		}
+		if (worldDom.equals("no")) {
+			JOptionPane.showMessageDialog(null, "OwO what's this?");
 		}
 		// 1. Ask the user if they know how to write code.
 
